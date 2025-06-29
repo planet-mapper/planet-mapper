@@ -1,6 +1,9 @@
+
 # 🤖 Autonomous Terrain Mapping Robot
 
 Intelligent robot for real-time terrain mapping - designed to explore unknown areas such as alien planets 🪐 or disaster zones on Earth 🌍.
+
+![robot_mapper](https://github.com/user-attachments/assets/1a2f06a2-8423-495e-a092-db9826d62f56)
 
 ## 🎯 Project Goal
 

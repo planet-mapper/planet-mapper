@@ -1,43 +1,47 @@
 
-# 🤖 Autonomous Terrain Mapping Robot
+# Autonomous Terrain Mapping Robot
 
-Intelligent robot for real-time terrain mapping - designed to explore unknown areas such as alien planets 🪐 or disaster zones on Earth 🌍.
+Intelligent robot for real-time terrain mapping - designed to explore unknown areas such as alien planets or disaster zones on Earth.
 
 ![robot_mapper](https://github.com/user-attachments/assets/1a2f06a2-8423-495e-a092-db9826d62f56)
 
-## 🎯 Project Goal
+## Project Goal
 
 The robot autonomously explores and maps unknown terrain, creating detailed 3D maps in real-time. Ideal for exploratory missions where human presence is impossible or dangerous.
 
-## 🌟 Key Features
+## Key Features
 
-### 🧠 Intelligent Exploration
+### Intelligent Exploration
 
 - **Frontier-based Algorithm** - robot automatically finds and explores uncharted areas
 - **Purposeful Movement** - instead of random driving, robot has specific exploration goals
 - **Adaptive Planning** - dynamic strategy adjustment to encountered terrain
 
-### 📡 Real-time Mapping
+### Real-time Mapping
 
 - **ToF Camera (Time-of-Flight)** - precise distance measurements up to 4 meters
 - **100×100 point grid** with 10cm × 10cm resolution
 - **Live Visualization** - map updated in real-time
 - **Color Coding**: blue (close), green (medium), yellow (far)
+  <img width="1401" height="828" alt="image" src="https://github.com/user-attachments/assets/59f2d8b6-d036-4e3c-ad55-6abc004c9fe4" />
 
-### 🌐 Web Interface
+
+### Web Interface
 
 - **Remote Control** via WiFi from any device
 - **Mode Switching**: manual ↔ automatic
 - **Statistics Panel**: terrain coverage, exploration time, distance traveled
 - **Interactive Map** with robot movement history
+<img width="1218" height="1160" alt="image" src="https://github.com/user-attachments/assets/1599d7c7-f911-4137-8a6b-29c60fdece33" />
 
-### 🚀 Advanced Algorithms
+
+### Advanced Algorithms
 
 - **Obstacle Detection** - automatic barrier avoidance
 - **Route Optimization** - intelligent exploration direction selection
 - **Frontier Clustering** - grouping small unexplored areas
 
-## 🛠️ Technical Specifications
+## 🛠Technical Specifications
 
 ### Hardware
 
@@ -61,7 +65,7 @@ The robot autonomously explores and maps unknown terrain, creating detailed 3D m
 └─────────────────────────────────────┘
 ```
 
-## 📊 AI Algorithms
+## AI Algorithms
 
 ### 1. Frontier-Based Exploration
 ```python
@@ -89,7 +93,7 @@ def detect_critical_obstacle(depth_data):
         execute_escape_sequence()
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```bash
@@ -130,27 +134,27 @@ http://[ROBOT_IP]:80
 | Targets | Remaining areas | 8 |
 | Efficiency | Points/minute | 156 |
 
-## 🌍 Use Cases
+## Use Cases
 
-### 🪐 Planetary Exploration
+### Planetary Exploration
 
 - **Mars/Moon**: Surface mapping before sending astronauts
 - **Asteroids**: Composition and topography analysis of small celestial bodies
 - **Satellites**: Studying areas inaccessible to orbiters
 
-### 🌋 Earth Rescue Missions
+### Earth Rescue Missions
 
 - **Disaster Zones**: Earthquakes, floods, fires
 - **Contaminated Areas**: Nuclear accidents, chemical spills
 - **Hostile Regions**: Caves, glaciers, volcanoes
 
-### 🔬 Scientific Research
+### Scientific Research
 
 - **Archaeology**: Site mapping without damage
 - **Geology**: Rock formation analysis
 - **Ecology**: Natural environment monitoring
 
-## 🧪 Demo & Examples
+## Demo & Examples
 
 ### Exploration Visualization
 🤖 Start → 🔍 Scan → 🎯 Target → 🚀 Move → 📊 Map → 🔄 Repeat
@@ -164,7 +168,7 @@ http://[ROBOT_IP]:80
 - **12:00** - All main areas explored
 - **15:30** - Patrol mode - exploration complete
 
-## 🔧 Configuration
+## Configuration
 
 ### Exploration Parameters
 ```python
@@ -181,7 +185,7 @@ FRAME_RATE = 10          # ToF FPS (Hz)
 UPDATE_INTERVAL = 0.5    # Map update frequency (s)
 ```
 
-## 📋 Requirements
+## Requirements
 
 ### Hardware
 
@@ -205,44 +209,44 @@ UPDATE_INTERVAL = 0.5    # Map update frequency (s)
 - WiFi router (for remote control)
 - Static IP (recommended)
 
-## 🔄 Project Development
+## Project Development
 
-### Version 1.0 ✅
+### Version 1.0 
 
-- ✅ Basic exploration
-- ✅ ToF mapping
-- ✅ Web interface
-- ✅ Manual control
+- Basic exploration
+- ToF mapping
+- Web interface
+- Manual control
 
 ### Version 2.0 ✅ (Current)
 
-- ✅ Intelligent exploration (frontier-based)
-- ✅ Real-time statistics
-- ✅ Algorithm optimization
-- ✅ Improved obstacle avoidance
+- Intelligent exploration (frontier-based)
+- Real-time statistics
+- Algorithm optimization
+- Improved obstacle avoidance
 
 ### Version 3.0 🚧 (Planned)
 
-- 🚧 Loop detection + auto-escape
-- 🚧 Map export (PNG/JSON/KML)
-- 🚧 PostgreSQL database
-- 🚧 REST API + documentation
+- Loop detection + auto-escape
+- Map export (PNG/JSON/KML)
+- PostgreSQL database
+- REST API + documentation
 
 ### Version 4.0 💭 (Future)
 
-- 💭 Object recognition (AI)
-- 💭 Semantic mapping
-- 💭 Multi-robot coordination
-- 💭 ROS2 integration
+- Object recognition (AI)
+- Semantic mapping
+- Multi-robot coordination
+- ROS2 integration
 
 ## 🤝 Collaboration
 
 The project is open to collaboration! Welcome contributions:
 
-- 🐛 **Bug Reports** - Issues on GitHub
-- 💡 **New Ideas** - Feature requests
-- 🔧 **Pull Requests** - Code improvements
-- 📚 **Documentation** - Tutorials and examples
+- **Bug Reports** - Issues on GitHub
+- **New Ideas** - Feature requests
+- **Pull Requests** - Code improvements
+- **Documentation** - Tutorials and examples
 
 ### How to Contribute
 
@@ -252,18 +256,18 @@ The project is open to collaboration! Welcome contributions:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+## License
 
 Project released under MIT License - see LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Arducam** - for ToF camera SDK
 - **Raspberry Pi Foundation** - for hardware platform
 - **OpenCV Community** - for computer vision libraries
 - **Flask Team** - for web framework
 
-## 📞 Contact
+## Contact
 
 - **GitHub**: @your-username
 - **Email**: your.email@example.com

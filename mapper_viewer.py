@@ -12,8 +12,6 @@ Wymagania:
 Użycie:
 python robot_viewer.py
 
-Autor: Assistant
-Data: 2025
 """
 
 import tkinter as tk
@@ -845,3 +843,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -3,6 +3,7 @@
 
 Intelligent robot for real-time terrain mapping - designed to explore unknown areas such as alien planets or disaster zones on Earth.
 
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/5c0bff8c-21d9-49c7-80d1-971930218a3b" />
 
 
 ## Project Goal

@@ -270,12 +270,9 @@ Project released under MIT License - see LICENSE file for details.
 
 ## Contact
 
-- **GitHub**: @your-username
-- **Email**: your.email@example.com
-- **LinkedIn**: Your profile
+- **GitHub**: bartaxgolab
+- **Email**: bartaxgolab@gmail.com
+
 
 ---
 
-⭐ **If you like the project, leave a star on GitHub!** ⭐
-
-**Robot ready to explore new worlds** 🚀🤖🌌
